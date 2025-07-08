@@ -1,0 +1,15 @@
+# This file configures Netlify to handle client-side routing for your Single Page Application (SPA).
+# It ensures that when a user directly accesses a URL like /admin/login, Netlify serves the
+# main index.html file, allowing React Router to manage the routing.
+
+[build]
+  # This command builds your site for production.
+  command = "npm run build"
+  # This is the directory where your built site files are located.
+  publish = "dist"
+
+[[redirects]]
+  # This rule redirects all requests for non-existent files to your main index.html.
+  from = "/*"
+  to = "/index.html"
+  status = 200
