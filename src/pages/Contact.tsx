@@ -142,7 +142,7 @@ const Contact = () => {
                     <Phone className="text-kweku-orange mr-3 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-gray-600">+233 24 721 9711</p>
+                      <p className="text-gray-600">+233 20 850 3709</p>
                     </div>
                   </div>
                   
@@ -150,7 +150,7 @@ const Contact = () => {
                     <MessageCircle className="text-kweku-orange mr-3 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">WhatsApp</p>
-                      <p className="text-gray-600">+233 24 721 9711</p>
+                      <p className="text-gray-600">+233 20 850 3709</p>
                     </div>
                   </div>
                   
