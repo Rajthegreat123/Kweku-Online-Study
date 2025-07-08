@@ -18,7 +18,7 @@ const Contact = () => {
   const [loading, setLoading] = useState(false);
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/233247219711', '_blank');
+    window.open('https://wa.me/233208503709', '_blank');
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
