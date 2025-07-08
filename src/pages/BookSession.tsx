@@ -7,7 +7,7 @@ import Footer from '@/components/Footer';
 
 const BookSession = () => {
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/233247219711', '_blank');
+    window.open('https://wa.me/233208503709', '_blank');
   };
 
   const benefits = [
@@ -113,7 +113,7 @@ const BookSession = () => {
                   <div className="space-y-3">
                     <p className="flex items-center text-gray-700">
                       <MessageCircle className="mr-2 text-kweku-orange" size={16} />
-                      WhatsApp: +233 24 721 9711
+                      WhatsApp: +233 20 850 3709
                     </p>
                     <p className="text-sm text-gray-600">
                       Response time: Usually within 1-2 hours during business hours
