@@ -37,7 +37,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span className="text-gray-300">+233 24 721 9711</span>
+                <span className="text-gray-300">+233 20 850 3709</span>
               </div>
               <a 
                 href="https://wa.me/233247219711" 
