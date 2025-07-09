@@ -166,7 +166,7 @@ const Contact = () => {
                     <MapPin className="text-kweku-orange mr-3 flex-shrink-0" size={20} />
                     <div>
                       <p className="font-medium">Location</p>
-                      <p className="text-gray-600">Online & In-Person Sessions Available</p>
+                      <p className="text-gray-600">Online Sessions Available</p>
                     </div>
                   </div>
                 </CardContent>
@@ -213,7 +213,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium text-sm">Do you offer online sessions?</p>
-                      <p className="text-sm text-gray-600">Yes, we provide both online and in-person tutoring.</p>
+                      <p className="text-sm text-gray-600">Yes, I provide online tutoring.</p>
                     </div>
                     <div>
                       <p className="font-medium text-sm">What subjects do you cover?</p>
