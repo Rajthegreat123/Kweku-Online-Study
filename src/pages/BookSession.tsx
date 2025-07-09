@@ -99,7 +99,7 @@ const BookSession = () => {
                     <MessageCircle className="text-kweku-orange mr-3" size={20} />
                     <div>
                       <p className="font-medium">Format Options</p>
-                      <p className="text-sm text-gray-600">Online or in-person sessions</p>
+                      <p className="text-sm text-gray-600">Online sessions only</p>
                     </div>
                   </div>
                 </CardContent>
