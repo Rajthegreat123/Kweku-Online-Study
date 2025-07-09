@@ -42,10 +42,13 @@ const PastPapersManager = ({ onUpdate }: PastPapersManagerProps) => {
 
   const subjects = [
     'IGCSE Mathematics',
-    'A-Level Pure Mathematics',
-    'A-Level Statistics',
-    'A-Level Mechanics',
-    'Additional Mathematics'
+    'Additional Mathematics',
+    'Statistics S1',
+    'Statistics S2',
+    'Mechanics M1',
+    'Mechanics M2',
+    'AS Pure Mathematics',
+    'A2 Pure Mathematics'
   ];
 
   const sessions = ['May/June', 'October/November', 'February/March'];
