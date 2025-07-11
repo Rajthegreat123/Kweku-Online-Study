@@ -58,15 +58,19 @@ const VideoLessons = () => {
 
           {videos.length > 0 ? (
             <>
-              {/* Filter Section */}
-              <div className="flex items-center gap-4 mb-8">
-                <div className="flex items-center gap-2">
-                  <Filter size={16} className="text-gray-500" />
-                  <span className="text-sm font-medium text-gray-700">Filter by Unit:</span>
-                </div>
+          {/* Filters */}
+          <Card className="mb-8">
+            <CardHeader>
+              <CardTitle className="flex items-center text-kweku-blue">
+                <Filter className="mr-2" size={20} />
+                Filter Videos
+              </CardTitle>
+            </CardHeader>
+            <CardContent>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Select value={selectedUnit} onValueChange={setSelectedUnit}>
-                  <SelectTrigger className="w-48">
-                    <SelectValue placeholder="Select unit" />
+                  <SelectTrigger>
+                    <SelectValue placeholder="Select Unit" />
                   </SelectTrigger>
                   <SelectContent>
                     <SelectItem value="all">All Units</SelectItem>
@@ -78,6 +82,8 @@ const VideoLessons = () => {
                   </SelectContent>
                 </Select>
               </div>
+            </CardContent>
+          </Card>
 
               {/* Videos Grid */}
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
